@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 id="title">Cinema Survey</h1>
+        </header>
+
+        <main>
+            <p id="description">Please let us know how to improve our service</p>
+
+            <form id="survey-form" action="#" method="POST">
+                <fieldset id="option-field">
+                    <legend>Personal Information</legend>
+                    <label id="name-label" for="name">Name:</label>
+                    <input id="name" type="text" max="20" placeholder="Enter your name"><br>
+
+                    <labe id="email-label"for="email">Email:</labe>
+                    <input id="email"type="email" max="20" placeholder="Enter your email"><br>
+
+                    <label id="number-label"for="">Age:</label>
+                    <input type="number"  max="20" placeholder="Enter your age"><br>
+                </fieldset>
+
+                <fieldset id="opinion-field">
+                    <legend>Opinion</legend>
+                
+                    <p>What do you thing we need to improve?</p>
+                    <label for="nothing">
+                            <input type="checkbox" value="nothing">
+                            Nothing
+                    </label>
+
+                    <label for="staffs">
+                        <input type="checkbox" value="staffs">
+                        Staffs
+                    </label>
+                    <label for="movies">
+                            <input type="checkbox" value="movies">
+                            Movies
+                    </label>
+
+                    <label for="seats">
+                            <input type="checkbox" value="seats">
+                            Seats
+                    </label>
+
+                    <label for="everything">
+                            <input type="checkbox" value="everything">
+                            Everything
+                    </label>
+
+                    <p id="recommendation">Would you recommed us?</p>
+                    <input type="radio" name="recommed" value="yes"><label for="yes">Yes</label>
+                    <input type="radio" name="recommed" value="maybe"><label for="maybe">Maybe</label>
+                    <input type="radio" name="recommed" value="no"><label for="no">No</label><br>
+                    
+                    
+                    
+                    <label id="quality-service"for="dropdown">Overall quality of the service</label>
+                    <select name="" id="dropdown">
+                        <option value="good" selected>select</option>
+                        <option value="good">Good</option>
+                        <option value="not-bad">No bad</option>
+                        <option value="bad">Bad</option>
+                    </select>
+
+                    <p>Feel free to add some comments</p>
+                    <textarea id="myTextarea" placeholder="Type your comments here..."></textarea>
+                </fieldset>
+
+                <input id="submit"type="submit" value="Submit">
+
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy;Jeffrey almanzar 2019</p>
+        </footer>
+
+    </body>
+</html>

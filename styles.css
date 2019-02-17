@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #1abc9c;
+}
+
+header{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    position: relative;
+    bottom: 100%;
+    text-align: center;
+    color:#fff;
+}
+main{
+    width: 65%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5px;
+    
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+fieldset{
+    width:50%;
+    margin: auto;
+    border: 2px solid #27ae60;
+}
+
+#submit{
+    width: 70px;
+    margin: 20px auto 20px auto;
+    background-color:#27ae60;
+    font-weight:bold;
+    color:#fff;
+    border:2px solid #27ae60;
+    width: 100px;
+    height: auto;
+}
+
+#submit:hover{
+    background-color:#fff;;
+    color: #27ae60;
+    border:2px solid #27ae60;
+    
+}
+
+legend{
+    font-weight: bold;
+    text-align: center;
+}
+#description{
+    font-size: 20px;
+    font-weight: bold;
+    text-align:center;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#myTextarea{
+    width:55%;
+    height: auto;
+}
